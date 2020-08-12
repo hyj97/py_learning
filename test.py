@@ -5,7 +5,7 @@
 # a=lambda item:item[1]
 # print(a(d.items()))
 
-d = {'lilee': 25, 'wangyan': 21, 'liqun': 32, 'age': 19}
+d = {('education', 'age'): 'Stanford University'}
 c = sorted(d.items(), key=lambda item: item[1])
 a = {}
 for i in c:
