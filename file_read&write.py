@@ -16,7 +16,7 @@ def parse(text):
     for word in word_list:
         if word not in word_cnt:
             word_cnt[word] = 0
-            word_cnt[word] += 1
+        word_cnt[word] += 1
 # 按照词频排序
     sorted_word_cnt = sorted(word_cnt.items(), key=lambda kv: kv[1], reverse=True)
     return sorted_word_cnt
